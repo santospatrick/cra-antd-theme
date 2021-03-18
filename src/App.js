@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const StyledSquare = styled.div`
   height: 50px;
   width: 50px;
-  background-color: red;
+  background-color: @primary-color;
 `
 
 const App = () => (
