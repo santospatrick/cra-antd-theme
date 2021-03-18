@@ -1,4 +1,5 @@
 # cra-antd-theme
+> How to theme ant design with styled-components in create-react-app
 
 <a href="https://admiring-engelbart-79b0d0.netlify.app" target="_blank">![live example](docs/readme.png)</a>
 
