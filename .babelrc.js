@@ -1,4 +1,4 @@
-{
+module.exports = {
     "presets": ["@babel/preset-react"],
     "plugins": [
         [
@@ -6,7 +6,7 @@
             {
                 "import": "~antd/lib/style/themes/default.less",
                 "lessOptions": {
-                    "modifyVars": { "@primary-color": "#1DA57A" },
+                    "modifyVars": require('./theme'),
                     "javascriptEnabled": true
                 }
             }
