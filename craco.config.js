@@ -1,4 +1,3 @@
-const BabelRcPlugin = require('@jackwilsdon/craco-use-babelrc');
 const CracoLessPlugin = require('craco-less');
 
 module.exports = {
@@ -8,12 +7,11 @@ module.exports = {
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: require('./theme'),
+            modifyVars: require('./src/styles/theme'),
             javascriptEnabled: true,
           },
         },
       },
     },
-    { plugin: BabelRcPlugin },
   ],
 };
