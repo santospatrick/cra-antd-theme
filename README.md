@@ -18,6 +18,4 @@ yarn start
 - [x] [Customized Theme](https://ant.design/docs/react/customize-theme)
 
 ## Issues
-- [ ] VSCode is showing errors for less syntax inside styled-components
-- [ ] Unit tests are breaking (because of the above) ⬆️
 - [ ] Every time we need to customize theme variables, the front-end server needs to be restarted 😞
